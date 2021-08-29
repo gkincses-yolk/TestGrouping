@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="Second iteration, ignored tests show up as ignored">
-      <change beforePath="$PROJECT_DIR$/src/main/java/yolk/digital/model/runner/YolkRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yolk/digital/model/runner/YolkRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grouping-with-5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGroupingWith4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yolk/digital/model/BusinessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/model/BusinessObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yolk/digital/model/runner/YolkRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/model/runner/YolkRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yolk/digital/test/group/TestGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/test/group/TestGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yolk/digital/test/group/TestGroupInclusionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/test/group/TestGroupInclusionValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yolk/digital/model/BusinessObjectGreaterTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/BusinessObjectGreaterTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yolk/digital/model/BusinessObjectSmallerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/BusinessObjectSmallerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yolk/digital/model/MixedTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/MixedTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yolk/digital/model/NoopTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/NoopTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/resources/log.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -190,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630246583067</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Second iteration, ignored tests show up as ignored">
+      <created>1630247204357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630247204357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +224,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First iteration, ignored tests show up as failures" />
