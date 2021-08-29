@@ -2,7 +2,6 @@ package yolk.digital.model;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.BlockJUnit4ClassRunner;
 import yolk.digital.model.runner.YolkRunner;
 import yolk.digital.test.group.TestGroup;
 

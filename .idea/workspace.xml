@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="First iteration, ignored tests show up as failures" />
+    <list default="true" id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="Second iteration, ignored tests show up as ignored">
+      <change beforePath="$PROJECT_DIR$/src/main/java/yolk/digital/model/runner/YolkRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yolk/digital/model/runner/YolkRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +55,24 @@
       <recent name="yolk.digital.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreaterTests">
+  <component name="RunManager" selected="JUnit.BusinessObjectSmallerTester">
+    <configuration name="AnyTest" type="JUnit" factoryName="JUnit">
+      <module name="TestGroupingWith4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusinessObjectSmallerTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestGroupingWith4" />
       <extension name="coverage">
@@ -86,6 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotSmallerTests" type="JUnit" factoryName="JUnit">
+      <module name="TestGroupingWith4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=GreaterTests,NoopTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallerTests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="TestGroupingWith4" />
       <extension name="coverage">
@@ -105,13 +141,15 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.GreaterTests" />
+      <item itemvalue="JUnit.NotSmallerTests" />
+      <item itemvalue="JUnit.AnyTest" />
       <item itemvalue="JUnit.BusinessObjectSmallerTester" />
       <item itemvalue="JUnit.SmallerTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmallerTests" />
         <item itemvalue="JUnit.BusinessObjectSmallerTester" />
+        <item itemvalue="JUnit.SmallerTests" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1630244055626</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First iteration, ignored tests show up as failures">
+      <created>1630244258926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630244258926</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second iteration, ignored tests show up as ignored">
+      <created>1630246523052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630246523052</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Second iteration, ignored tests show up as ignored">
+      <created>1630246583067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630246583067</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +206,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First iteration, ignored tests show up as failures" />
-    <option name="LAST_COMMIT_MESSAGE" value="First iteration, ignored tests show up as failures" />
+    <MESSAGE value="Second iteration, ignored tests show up as ignored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second iteration, ignored tests show up as ignored" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/yolk/digital/test/group/TestGroupInclusionValidator.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
