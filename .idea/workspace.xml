@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="First iteration, ignored tests show up as failures" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xOhx9JgrAAYSNvweyn6Yp4SvjB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="yolk.digital.test.group" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="yolk.digital.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yolk.digital.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GreaterTests">
+    <configuration name="BusinessObjectSmallerTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestGroupingWith4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectSmallerTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests" type="JUnit" factoryName="JUnit">
+      <module name="TestGroupingWith4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=GreaterTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallerTests" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TestGroupingWith4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=SmallerTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GreaterTests" />
+      <item itemvalue="JUnit.BusinessObjectSmallerTester" />
+      <item itemvalue="JUnit.SmallerTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmallerTests" />
+        <item itemvalue="JUnit.BusinessObjectSmallerTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="" />
+      <created>1630232286516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630232286516</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First iteration, ignored tests show up as failures">
+      <created>1630244055625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630244055626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First iteration, ignored tests show up as failures" />
+    <option name="LAST_COMMIT_MESSAGE" value="First iteration, ignored tests show up as failures" />
+  </component>
+</project>
