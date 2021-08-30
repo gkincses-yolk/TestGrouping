@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="Second iteration, ignored tests show up as ignored">
-      <change afterPath="$PROJECT_DIR$/grouping-with-4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grouping-with-5/src/main/java/yolk/digital/model/BusinessObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grouping-with-5/src/test/java/yolk/digital/model/BusinessObjectGreaterTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grouping-with-5/src/test/java/yolk/digital/model/BusinessObjectSmallerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/model/runner/YolkRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/runner/YolkRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/test/group/TestGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/group/TestGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/main/java/yolk/digital/test/group/TestGroupInclusionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/group/TestGroupInclusionValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/BusinessObjectGreaterTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/BusinessObjectGreaterTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/BusinessObjectSmallerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/BusinessObjectSmallerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/MixedTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/MixedTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/NoopTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/model/NoopTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grouping-with-5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +45,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40804598" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -79,7 +66,7 @@
       <recent name="yolk.digital.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BusinessObjectGreaterTester$NegativeTests (1)">
+  <component name="RunManager" selected="JUnit.GreaterTests4">
     <configuration name="AnyTest4" type="JUnit" factoryName="JUnit">
       <module name="grouping-with-4" />
       <extension name="coverage">
@@ -263,10 +250,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmallerTests4" />
         <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests (1)" />
         <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests.testGreaterWhenEquals" />
         <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests" />
-        <item itemvalue="JUnit.SmallerTests4" />
         <item itemvalue="JUnit.BusinessObjectSmallerTester4" />
       </list>
     </recent_temporary>
@@ -322,7 +309,28 @@
       <option name="project" value="LOCAL" />
       <updated>1630248635028</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="moved everything under src/test/java which belong there">
+      <created>1630312174691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630312174691</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implement running inner abstract class that is made concrete via bytebuddy augmentation">
+      <created>1630352543550</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630352543550</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implement running inner abstract class that is made concrete via bytebuddy augmentation">
+      <created>1630352705772</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630352705772</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +350,8 @@
     <MESSAGE value="Second iteration, ignored tests show up as ignored" />
     <MESSAGE value="Junit4 and Junit5 testing" />
     <MESSAGE value="moved everything under src/test/java which belong there" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved everything under src/test/java which belong there" />
+    <MESSAGE value="Implement running inner abstract class that is made concrete via bytebuddy augmentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement running inner abstract class that is made concrete via bytebuddy augmentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

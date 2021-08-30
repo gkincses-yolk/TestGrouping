@@ -14,8 +14,8 @@ public class TestGroupInclusionValidator {
     private List<String> currentGroups = propertyValue == null ? Collections.EMPTY_LIST :
             Collections.list(new StringTokenizer(propertyValue, ",")).stream().map(token -> (String) token).collect(Collectors.toList());
 
-    public boolean isValid(Class<?> testClass) {
-        return isValid(testClass.getAnnotations());
+    public boolean isValid(Class<?> clazz) {
+        return isValid(clazz.getAnnotations());
     }
 
     public boolean isValid(FrameworkMethod testMethod) {
