@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="grouping-with-5" />
         <module name="grouping-with-4" />
-        <module name="TestGrouping (1)" />
       </profile>
     </annotationProcessing>
   </component>

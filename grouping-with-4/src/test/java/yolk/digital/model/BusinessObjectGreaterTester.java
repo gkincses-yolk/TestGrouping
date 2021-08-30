@@ -2,7 +2,7 @@ package yolk.digital.model;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import yolk.digital.model.runner.YolkRunner;
+import yolk.digital.runner.YolkRunner;
 import yolk.digital.test.group.TestGroup;
 
 import static org.assertj.core.api.Assertions.*;
@@ -18,17 +18,25 @@ public class BusinessObjectGreaterTester {
         assertThat(b);
     }
 
-    @Test
-    public void testGreaterWhenEquals() {
-        BusinessObject bo = new BusinessObject(1000);
-        boolean b = bo.isGreater(1000);
-        assertThat(!b);
-    }
+    @RunWith(YolkRunner.class)
+    @TestGroup(value = "NegativeTests")
+    public static class NegativeTests {
 
-    @Test
-    public void testGreaterWhenSmaller() {
-        BusinessObject bo = new BusinessObject(50);
-        boolean b = bo.isGreater(49);
-        assertThat(!b);
+        public NegativeTests() {}
+
+        @Test
+        public void testGreaterWhenEquals() {
+            BusinessObject bo = new BusinessObject(1000);
+            boolean b = bo.isGreater(1000);
+            assertThat(!b);
+        }
+
+        @Test
+        public void testGreaterWhenSmaller() {
+            BusinessObject bo = new BusinessObject(50);
+            boolean b = bo.isGreater(49);
+            assertThat(!b);
+        }
+
     }
 }

@@ -2,7 +2,7 @@ package yolk.digital.model;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import yolk.digital.model.runner.YolkRunner;
+import yolk.digital.runner.YolkRunner;
 import yolk.digital.test.group.TestGroup;
 
 import static org.assertj.core.api.Assertions.*;

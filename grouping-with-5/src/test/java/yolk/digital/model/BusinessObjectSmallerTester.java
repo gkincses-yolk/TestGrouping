@@ -1,14 +1,11 @@
 package yolk.digital.model;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import yolk.digital.runner.YolkRunner;
-import yolk.digital.test.group.TestGroup;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.EnabledIfSystemProperty;
 
 import static org.assertj.core.api.Assertions.*;
 
-@RunWith(YolkRunner.class)
-@TestGroup(value = "SmallerTests")
+@EnabledIfSystemProperty(named = "digital.yolk.test.group", matches = "SmallerTests")
 public class BusinessObjectSmallerTester {
 
     @Test
