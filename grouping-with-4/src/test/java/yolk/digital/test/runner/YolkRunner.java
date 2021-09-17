@@ -8,25 +8,20 @@ import net.bytebuddy.matcher.ElementMatchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runner.Runner;
+import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import yolk.digital.test.InnerTestBase;
-import yolk.digital.test.group.TestGroupInclusionValidator;
+import yolk.digital.test.group.*;
 
 import java.lang.reflect.Method;
 
 @Slf4j
 public class YolkRunner extends BlockJUnit4ClassRunner {
-    private TestGroupInclusionValidator v = new TestGroupInclusionValidator();
 
     public YolkRunner(Class<?> testClass) throws InitializationError {
         super(findActualClass(testClass));
-    }
-
-    @Override
-    protected boolean isIgnored(FrameworkMethod child) {
-        return !v.isValid(child.getDeclaringClass()) && !v.isValid(child);
     }
 
     private static Class<?> findActualClass(Class<?> outerClass) {
@@ -61,6 +56,7 @@ public class YolkRunner extends BlockJUnit4ClassRunner {
                     .subclass(innerClassToRun)
                     .method(ElementMatchers.hasMethodName("foo"))
                     .intercept(FixedValue.value("Hello ByteBuddy!"))
+                    .annotateType(innerClassToRun.getAnnotations())
                     .make();
             Class<?> completeInnerClass = unloadedType.load(YolkRunner.class.getClassLoader()).getLoaded();
             return completeInnerClass;
@@ -69,4 +65,97 @@ public class YolkRunner extends BlockJUnit4ClassRunner {
             return innerClassToRun;
         }
     }
+
+    @Override
+    protected void runChild(final FrameworkMethod method, RunNotifier notifier) {
+        Class<?> clazz = this.getTestClass().getJavaClass();
+        Boolean isTestClassDisabled  = checkDisabled(clazz.getAnnotation(DisabledIfSystemProperty.class));
+        Boolean isTestClassEnabled   = checkEnabled(clazz.getAnnotation(EnabledIfSystemProperty.class));
+        Boolean isTestMethodDisabled = checkDisabled(method.getMethod().getAnnotation(DisabledIfSystemProperty.class));
+        Boolean isTestMethodEnabled  = checkEnabled(method.getMethod().getAnnotation(EnabledIfSystemProperty.class));
+
+        Boolean isDisabled;
+        if (isTestClassDisabled == null) {
+            isDisabled = isTestMethodDisabled;
+        } else {
+            if (isTestMethodDisabled == null) {
+                isDisabled = isTestClassDisabled.booleanValue();
+            } else {
+                isDisabled = isTestMethodDisabled.booleanValue() || isTestClassDisabled.booleanValue();
+            }
+        }
+        Boolean isEnabled;
+        if (isTestClassEnabled == null) {
+            isEnabled = isTestMethodEnabled;
+        } else {
+            if (isTestMethodEnabled == null) {
+                isEnabled = isTestClassEnabled.booleanValue();
+            } else {
+                isEnabled = isTestMethodEnabled.booleanValue() || isTestClassEnabled.booleanValue();
+            }
+        }
+        if (Boolean.TRUE.equals(isEnabled)) {
+            super.runChild(method, notifier);
+        }
+        if (Boolean.FALSE.equals(isEnabled) || Boolean.TRUE.equals(isDisabled)) {
+            skipTest(method, notifier);
+            return;
+        }
+        super.runChild(method, notifier);
+    }
+
+    private void skipTest(final FrameworkMethod method, RunNotifier notifier) {
+        notifier.fireTestIgnored(describeChild(method));
+    }
+
+    private Boolean checkDisabled(DisabledIfSystemProperty annotation) {
+        if (annotation == null) {
+            return null;
+        }
+        String propertyValue = System.getProperty(annotation.property());
+        // LOCAL defaults to ON
+        if (annotation.property().equalsIgnoreCase("yolk.digital.junit.local")) {
+            if (propertyValue == null) {
+                return Boolean.FALSE;
+            }
+            if (propertyValue.equalsIgnoreCase("false")) {
+                return Boolean.TRUE;
+            }
+            return Boolean.FALSE;
+        } else { // others default to OFF
+            if (propertyValue == null) {
+                return Boolean.TRUE;
+            }
+            if (!propertyValue.equalsIgnoreCase("true")) {
+                return Boolean.FALSE;
+            }
+            return Boolean.TRUE;
+        }
+    }
+
+    private Boolean checkEnabled(EnabledIfSystemProperty annotation) {
+        if (annotation == null) {
+            return null;
+        }
+        String propertyValue = System.getProperty(annotation.property());
+        // others default to OFF
+        if (!annotation.property().equalsIgnoreCase("yolk.digital.junit.local")) {
+            if (propertyValue == null) {
+                return Boolean.FALSE;
+            }
+            if (propertyValue.equalsIgnoreCase("true")) {
+                return Boolean.TRUE;
+            }
+            return Boolean.FALSE;
+        } else { // LOCAL defaults to ON
+            if (propertyValue == null) {
+                return Boolean.TRUE;
+            }
+            if (propertyValue.equalsIgnoreCase("false")) {
+                return Boolean.FALSE;
+            }
+            return Boolean.TRUE;
+        }
+    }
+
 }

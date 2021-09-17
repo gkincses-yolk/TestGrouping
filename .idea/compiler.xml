@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jacoco-coverage-report" />
         <module name="grouping-with-5" />
         <module name="grouping-with-4" />
       </profile>

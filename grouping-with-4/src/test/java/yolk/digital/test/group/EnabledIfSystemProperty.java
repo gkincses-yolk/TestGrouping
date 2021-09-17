@@ -7,9 +7,7 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface TestGroup {
+public @interface EnabledIfSystemProperty {
 
-    String message() default "ignored";
-
-    String[] value() default {};
+    String property() default "";
 }

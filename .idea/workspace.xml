@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99c66eaa-fe40-401d-9b94-9758c3832d63" name="Default Changelist" comment="Second iteration, ignored tests show up as ignored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +41,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/grouping-with-5/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/grouping-with-5/src/test/java/yolk/digital/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40804598" />
@@ -49,29 +51,42 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="yolk.digital" />
+      <recent name="yolk.digital.model.test.interceptor" />
       <recent name="yolk.digital.test.group" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grouping-with-5/src/test/resources" />
       <recent name="$PROJECT_DIR$/grouping-with-5/src/test/java/yolk/digital/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="yolk.digital.test.group" />
       <recent name="yolk.digital" />
       <recent name="yolk.digital.model" />
+      <recent name="yolk.digital.test.group" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yolk.digital.test.group" />
+      <recent name="yolk.digital.model.test" />
       <recent name="yolk.digital.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreaterTests4">
+  <component name="RunManager" selected="JUnit.GreaterTests4-local-true-optional-true">
+    <configuration name="All in grouping-with-4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grouping-with-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnyTest4" type="JUnit" factoryName="JUnit">
       <module name="grouping-with-4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="PATTERN" value="yolk.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,103 +99,235 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BusinessObjectGreaterTest$InnerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest$InnerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea  -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=GreaterTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusinessObjectGreaterTest" type="JUnit" factoryName="JUnit">
       <module name="grouping-with-4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="PATTERN" value="yolk.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="PACKAGE_NAME" value="yolk.digital.model" />
-      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTester" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusinessObjectGreaterTester$NegativeTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusinessObjectGreaterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="grouping-with-4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yolk.digital.model.BusinessObjectGreaterTester" />
-      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTester$NegativeTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusinessObjectGreaterTester$NegativeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="grouping-with-4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yolk.digital.model.BusinessObjectGreaterTester" />
-      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTester$NegativeTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea  -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=NegativeTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusinessObjectGreaterTester$NegativeTests.testGreaterWhenEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="grouping-with-4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yolk.digital.model.BusinessObjectGreaterTester" />
-      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTester$NegativeTests" />
-      <option name="METHOD_NAME" value="testGreaterWhenEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusinessObjectSmallerTester4" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="grouping-with-4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="PACKAGE_NAME" value="yolk.digital.model" />
-      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectSmallerTester" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreaterTests4" type="JUnit" factoryName="JUnit">
-      <module name="grouping-with-4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="PATTERN" value="yolk.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="yolk.digital.model" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessObjectGreaterTester$InnerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grouping-with-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model.BusinessObjectGreaterTester" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTester$InnerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessObjectTesterIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.BusinessObjectTesterIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-local-false-optional-false" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=GreaterTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.local=false -Dyolk.digital.junit.optional=false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-local-false-optional-true" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.local=false -Dyolk.digital.junit.optional=true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-local-false" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.local=false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-local-true-optional-false" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.local=true -Dyolk.digital.junit.optional=false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-local-true-optional-true" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.local=true -Dyolk.digital.junit.optional=true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-local-true" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml  -Dyolk.digital.junit.local=true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-no-prop" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-optional-false" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.optional=false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreaterTests4-optional-true" type="JUnit" factoryName="JUnit">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital.model" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectGreaterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.optional=true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,7 +336,7 @@
       <module name="grouping-with-5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="PATTERN" value="yolk.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,59 +349,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotSmallerTests4" type="JUnit" factoryName="JUnit">
+    <configuration name="MixedTest" type="JUnit" factoryName="JUnit">
       <module name="grouping-with-4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="PATTERN" value="yolk.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="yolk.digital.model" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.MixedTest" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=GreaterTests,NoopTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.optional=true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallerTests4" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="SmallerTest4" type="JUnit" factoryName="JUnit">
       <module name="grouping-with-4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yolk.digital.model.*" />
+          <option name="PATTERN" value="yolk.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="yolk.digital.model" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="yolk.digital.model.BusinessObjectSmallerTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Dyolk.digital.junit.local=true -Dyolk.digital.junit.optional=true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolk.digital in grouping-with-4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grouping-with-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yolk.digital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yolk.digital" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea -Dlogback.configurationFile=log.xml -Ddigital.yolk.test.group=SmallerTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GreaterTests4" />
+      <item itemvalue="JUnit.GreaterTests4-no-prop" />
+      <item itemvalue="JUnit.GreaterTests4-local-false" />
+      <item itemvalue="JUnit.GreaterTests4-local-true" />
+      <item itemvalue="JUnit.GreaterTests4-optional-false" />
+      <item itemvalue="JUnit.GreaterTests4-optional-true" />
+      <item itemvalue="JUnit.GreaterTests4-local-false-optional-false" />
+      <item itemvalue="JUnit.GreaterTests4-local-false-optional-true" />
+      <item itemvalue="JUnit.GreaterTests4-local-true-optional-false" />
+      <item itemvalue="JUnit.GreaterTests4-local-true-optional-true" />
       <item itemvalue="JUnit.GreaterTests5" />
-      <item itemvalue="JUnit.NotSmallerTests4" />
+      <item itemvalue="JUnit.SmallerTest4" />
       <item itemvalue="JUnit.AnyTest4" />
+      <item itemvalue="JUnit.MixedTest" />
       <item itemvalue="JUnit.BusinessObjectGreaterTest" />
-      <item itemvalue="JUnit.BusinessObjectSmallerTester4" />
-      <item itemvalue="JUnit.SmallerTests4" />
-      <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests" />
-      <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests (1)" />
-      <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests.testGreaterWhenEquals" />
+      <item itemvalue="JUnit.BusinessObjectGreaterTest$InnerTest" />
+      <item itemvalue="JUnit.BusinessObjectGreaterTester$InnerTests" />
+      <item itemvalue="JUnit.BusinessObjectTesterIT" />
+      <item itemvalue="JUnit.yolk.digital in grouping-with-4" />
+      <item itemvalue="JUnit.All in grouping-with-4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmallerTests4" />
-        <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests (1)" />
-        <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests.testGreaterWhenEquals" />
-        <item itemvalue="JUnit.BusinessObjectGreaterTester$NegativeTests" />
-        <item itemvalue="JUnit.BusinessObjectSmallerTester4" />
+        <item itemvalue="JUnit.All in grouping-with-4" />
+        <item itemvalue="JUnit.yolk.digital in grouping-with-4" />
+        <item itemvalue="JUnit.BusinessObjectTesterIT" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630352705772</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implement running inner abstract class that is made concrete via bytebuddy augmentation">
+      <created>1630354073612</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630354073612</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implement enabled and disabled for junit4&#10;jacoco fix">
+      <created>1631919182258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631919182258</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +533,8 @@
     <MESSAGE value="Junit4 and Junit5 testing" />
     <MESSAGE value="moved everything under src/test/java which belong there" />
     <MESSAGE value="Implement running inner abstract class that is made concrete via bytebuddy augmentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement running inner abstract class that is made concrete via bytebuddy augmentation" />
+    <MESSAGE value="implement enabled and disabled for junit4&#10;jacoco fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement enabled and disabled for junit4&#10;jacoco fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -362,14 +545,54 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java</url>
-          <line>249</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/InstantiationExceptionConstructorAccessorImpl.java</url>
           <line>47</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/extension/TestInstantiationException.class</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/extension/TestInstantiationException.class</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2-sources.jar!/org/junit/jupiter/engine/descriptor/ClassBasedTestDescriptor.java</url>
+          <line>297</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2-sources.jar!/org/junit/jupiter/engine/discovery/ClassSelectorResolver.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grouping-with-4/src/test/java/yolk/digital/test/runner/YolkRunner.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,21 +2,22 @@ package yolk.digital.model;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import yolk.digital.test.group.*;
 import yolk.digital.test.runner.YolkRunner;
 import yolk.digital.test.InnerTestBase;
-import yolk.digital.test.group.TestGroup;
 
 import static org.assertj.core.api.Assertions.*;
 
 @RunWith(YolkRunner.class)
-@TestGroup(value = "GreaterTests")
-public class BusinessObjectGreaterTester {
+@DisabledIfSystemProperty(property = "yolk.digital.junit.local")
+public class BusinessObjectGreaterTest {
 
     @RunWith(YolkRunner.class)
-    @TestGroup(value = "GreaterTests")
-    public abstract static class InnerTests extends InnerTestBase {
+    @DisabledIfSystemProperty(property = "yolk.digital.junit.local")
+    public abstract static class InnerTest extends InnerTestBase {
 
         @Test
+        @EnabledIfSystemProperty(property = "yolk.digital.junit.optional")
         public void testGreaterWhenGreater() {
             BusinessObject bo = new BusinessObject(100);
             boolean b = bo.isGreater(150);
